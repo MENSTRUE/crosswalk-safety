@@ -1,0 +1,13 @@
+{
+  "project": "8% \u2014 Crosswalk Safety",
+  "version": "v3",
+  "videos_total": 120,
+  "dataset_parts": 3,
+  "sample_every_seconds": 2.0,
+  "sampled_frames_total": 18000,
+  "conflict_frames": 6202,
+  "conflict_events_grouped": 1552,
+  "model": "YOLO11n pretrained COCO detector",
+  "event_definition": "vehicle and pedestrian both present inside configured demo ROI on same sampled frame; adjacent conflict frames grouped temporally",
+  "claim_limit": "Not a validated traffic-violation detector; dataset has no crosswalk polygon ground truth."
+}
